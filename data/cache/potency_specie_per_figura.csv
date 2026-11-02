@@ -1,0 +1,40 @@
+confronto,modello,test,n,valore,ic_basso,ic_alto,esito
+pearson,fisica pura,specie (bersagli nuovi),1453,0.4991781301790553,0.46300501529103666,0.534142915597395,
+caduta,fisica pura,specie (altra meno stessa),1453,-0.038411710720492986,-0.058364811332440626,-0.018745640195519338,esclude lo zero
+pearson,fisica pura,specie (stessa specie),1453,0.5375898408995483,0.5047384705136035,0.5695694713571722,caduta -0.038
+contrasto,modello principale (V1) - fisica pura,specie (bersagli nuovi),1453,0.06802535778238683,0.04850534951238854,0.08799213360925456,esclude lo zero
+pearson,fisica + U1,specie (bersagli nuovi),1453,0.5542922762073176,0.5225492882145607,0.5852287381809985,
+caduta,fisica + U1,specie (altra meno stessa),1453,-0.02088111321652364,-0.03613535679893155,-0.005878986953116136,esclude lo zero
+pearson,fisica + U1,specie (stessa specie),1453,0.5751733894238412,0.5445595801442809,0.6047721413044607,caduta -0.021
+contrasto,modello principale (V1) - fisica + U1,specie (bersagli nuovi),1453,0.012911211754124574,0.0036901602331452735,0.02206853934920245,esclude lo zero
+pearson,modello principale (V1),specie (bersagli nuovi),1453,0.5672034879614422,0.5358325698601241,0.5970366745795278,
+caduta,modello principale (V1),specie (altra meno stessa),1453,-0.007969901462399065,-0.025494085821195122,0.009285692978160544,include lo zero
+pearson,modello principale (V1),specie (stessa specie),1453,0.5751733894238412,0.5445595801442809,0.6047721413044607,identico a fisica + U1
+pearson,DSIR sparse-19,specie (bersagli nuovi),1453,0.5592332504824593,0.5264135431094505,0.5907935345646695,
+caduta,DSIR sparse-19,specie (altra meno stessa),1453,-0.03604571682555213,-0.05985258468811749,-0.011859967905539079,esclude lo zero
+pearson,DSIR sparse-19,specie (stessa specie),1453,0.5952789673080114,0.5635605188764972,0.6257121037768152,caduta -0.036
+contrasto,modello principale (V1) - DSIR sparse-19,specie (bersagli nuovi),1453,0.007970237478982845,-0.009785713807093132,0.024982818155996983,include lo zero
+pearson,DSIR spectrum-19,specie (bersagli nuovi),1453,0.49594572845674695,0.4600388847539938,0.5301937781602314,
+caduta,DSIR spectrum-19,specie (altra meno stessa),1453,-0.0788003264261144,-0.1135108621531409,-0.04304021917617623,esclude lo zero
+pearson,DSIR spectrum-19,specie (stessa specie),1453,0.5747460548828613,0.541764000829668,0.6061702802865873,caduta -0.079
+contrasto,modello principale (V1) - DSIR spectrum-19,specie (bersagli nuovi),1453,0.0712577595046952,0.042993952228199274,0.09900865529009395,esclude lo zero
+pearson,DSIR composite-19/19,specie (bersagli nuovi),1453,0.5216348462612933,0.4889553242531453,0.5536657342018867,
+caduta,DSIR composite-19/19,specie (altra meno stessa),1453,-0.09263663673339795,-0.12203342771130567,-0.062173514822472555,esclude lo zero
+pearson,DSIR composite-19/19,specie (stessa specie),1453,0.6142714829946913,0.5840848661707074,0.6431677468356232,caduta -0.093
+contrasto,modello principale (V1) - DSIR composite-19/19,specie (bersagli nuovi),1453,0.04556864170014885,0.022074893794326388,0.06919419742410202,esclude lo zero
+pearson,DSIR composite-21/21,specie (bersagli nuovi),1453,0.5466345170856826,0.5139332672749541,0.5789535918220686,
+caduta,DSIR composite-21/21,specie (altra meno stessa),1453,-0.07113940400534513,-0.10021062763424747,-0.04058418428711601,esclude lo zero
+pearson,DSIR composite-21/21,specie (stessa specie),1453,0.6177739210910277,0.5860590762570237,0.6478352851157951,caduta -0.071
+contrasto,modello principale (V1) - DSIR composite-21/21,specie (bersagli nuovi),1453,0.020568970875759596,-0.004245609351471021,0.044809581774014236,include lo zero
+pearson,i-Score riadattato,specie (bersagli nuovi),1453,0.55697218705947,0.5246505014624974,0.5883413115658921,
+caduta,i-Score riadattato,specie (altra meno stessa),1453,-0.025786410838525176,-0.04898531288358644,-0.0019564076864321107,esclude lo zero
+pearson,i-Score riadattato,specie (stessa specie),1453,0.5827585978979952,0.5512698187457569,0.6140233028270621,caduta -0.026
+contrasto,modello principale (V1) - i-Score riadattato,specie (bersagli nuovi),1453,0.010231300901972107,-0.007523257349950082,0.02771434505128693,include lo zero
+pearson,Reynolds 2004,specie (bersagli nuovi),1453,0.5141434452897558,0.4774514532426487,0.5486141843025572,
+caduta,Reynolds 2004,specie (altra meno stessa),1453,0.0,0.0,0.0,include lo zero
+pearson,Reynolds 2004,specie (stessa specie),1453,0.5141434452897558,0.4774514532426487,0.5486141843025572,caduta +0.000
+contrasto,modello principale (V1) - Reynolds 2004,specie (bersagli nuovi),1453,0.0530600426716864,0.022872749879313474,0.08380593535819393,esclude lo zero
+pearson,Ui-Tei 2004,specie (bersagli nuovi),1453,0.506318590560685,0.47084102011621987,0.5424862440046518,
+caduta,Ui-Tei 2004,specie (altra meno stessa),1453,0.0,0.0,0.0,include lo zero
+pearson,Ui-Tei 2004,specie (stessa specie),1453,0.506318590560685,0.47084102011621987,0.5424862440046518,caduta +0.000
+contrasto,modello principale (V1) - Ui-Tei 2004,specie (bersagli nuovi),1453,0.0608848974007572,0.03006160782715873,0.09129934399982079,esclude lo zero

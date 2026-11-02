@@ -1,0 +1,72 @@
+{
+  "source_commit": "e2f53ad63387bbe166bf123949151e2bc9bf6ec3",
+  "protocol": {
+    "n_splits": 5,
+    "n_seeds": 5,
+    "validation_fraction": 0.2,
+    "bootstrap_replicates": 4000,
+    "point": "mean_run_pearson"
+  },
+  "comparisons": [
+    {
+      "model": "main",
+      "dataset": "eval_huesken249",
+      "n": 249,
+      "oligoformer_r": 0.65074421826036,
+      "ci_low": 0.5793776962824652,
+      "ci_high": 0.7135339910122895,
+      "delta_silscore_minus_oligoformer": -0.017202632379765714,
+      "delta_ci_low": -0.05709880649090546,
+      "delta_ci_high": 0.0246482213622381
+    },
+    {
+      "model": "main",
+      "dataset": "eval_mix472",
+      "n": 472,
+      "oligoformer_r": 0.5683676585806867,
+      "ci_low": 0.5037467335819878,
+      "ci_high": 0.6304773234420016,
+      "delta_silscore_minus_oligoformer": 0.011772441637806219,
+      "delta_ci_low": -0.02112991952890739,
+      "delta_ci_high": 0.052466029930426185
+    },
+    {
+      "model": "main",
+      "dataset": "eval_taka702",
+      "n": 702,
+      "oligoformer_r": 0.5632168222794809,
+      "ci_low": 0.5077786985856046,
+      "ci_high": 0.6166496333352095,
+      "delta_silscore_minus_oligoformer": 0.06022477116076863,
+      "delta_ci_low": 0.02635458254575877,
+      "delta_ci_high": 0.09700943119605075
+    },
+    {
+      "model": "human",
+      "dataset": "eval_human1453",
+      "n": 1453,
+      "oligoformer_r": 0.5077637834041616,
+      "ci_low": 0.4218553478928574,
+      "ci_high": 0.5753149924765729,
+      "delta_silscore_minus_oligoformer": 0.06740960601967949,
+      "delta_ci_low": 0.006352243817493983,
+      "delta_ci_high": 0.15403685644632226
+    },
+    {
+      "model": "rodent",
+      "dataset": "eval_human1453",
+      "n": 1453,
+      "oligoformer_r": 0.5530425394253351,
+      "ci_low": 0.5100262459610947,
+      "ci_high": 0.5911593878765427,
+      "delta_silscore_minus_oligoformer": 0.014160948536107498,
+      "delta_ci_low": -0.015642972059562936,
+      "delta_ci_high": 0.051261910758319
+    }
+  ],
+  "species_transfer": {
+    "rodent_minus_human": 0.045278756021173504,
+    "ci_low": -0.017054226251247313,
+    "ci_high": 0.13495332867583834
+  }
+}

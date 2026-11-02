@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use Silscore in your research, please cite the manuscript below."
+type: software
+title: Silscore
+version: 0.1.0
+repository-code: https://github.com/giusSacco/Silscore
+authors:
+  - family-names: Sacco
+    given-names: Giuseppe
+  - family-names: Baldini
+    given-names: Isabella
+  - family-names: Paone
+    given-names: Riccardo
+  - family-names: Capulli
+    given-names: Mattia
+  - family-names: Sanguinetti
+    given-names: Guido
+  - family-names: Bussi
+    given-names: Giovanni
+preferred-citation:
+  type: unpublished
+  title: >-
+    Silscore: modelling siRNA potency with positional thermodynamics and
+    data-selected nucleotide-identity terms
+  authors:
+    - family-names: Sacco
+      given-names: Giuseppe
+    - family-names: Baldini
+      given-names: Isabella
+    - family-names: Paone
+      given-names: Riccardo
+    - family-names: Capulli
+      given-names: Mattia
+    - family-names: Sanguinetti
+      given-names: Guido
+    - family-names: Bussi
+      given-names: Giovanni
+  # year: YEAR_TO_BE_ADDED
+  # doi: DOI_TO_BE_ADDED
+  # url: URL_TO_BE_ADDED

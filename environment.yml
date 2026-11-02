@@ -1,0 +1,19 @@
+name: silscore
+channels:
+  - conda-forge
+variables:
+  MPLBACKEND: Agg
+dependencies:
+  - python=3.11.15
+  - numpy=2.4.6
+  - scipy=1.17.1
+  - scikit-learn=1.8.0
+  - matplotlib=3.10.9
+  - pytest=9.0.3
+  - ipykernel
+  - nbformat
+  - nbclient
+  - pip
+  - pip:
+      - seqfold==0.7.18
+      - setuptools==80.10.2

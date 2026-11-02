@@ -1,0 +1,105 @@
+{
+  "scope": "ten figures from six notebooks",
+  "mode": "canonical",
+  "started_utc": "2026-11-01T07:54:29.948111+00:00",
+  "python": "3.11.15",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "seqfold": "0.7.18",
+    "setuptools": "80.10.2"
+  },
+  "input_sha256": {
+    "data/processed/huesken_canonical_split.csv": "03508de5bb7a66208c7f3910e2d99300356c16fed88b0a93e72f2fff4ea6f074",
+    "data/raw/Mix.csv": "10c34deaa5a02e5a168e6951edbd7144fe9025ad40a679c3defb8fe726620c87",
+    "data/raw/Taka.csv": "221672544ee0bd7e4c8029d9e8f5d7463c90aa9f5623976002b5e68c35300b2f"
+  },
+  "code_sha256": {
+    "scripts/extract_huesken.py": "8ccd5c83c8e3f7ebb58652e444b5113882724699f3761d21f017afecb091d989",
+    "scripts/prepare_data.py": "7a2cbbf577f17fa5435350f4cbf1f4bbf4c1d2b1570fdd01b91d094e472e3d51",
+    "scripts/reproduce.py": "6b521f772d744be13f9e16ecfe1d8b9debeb5e206ed5468c0ad8ce38db99a8af",
+    "scripts/silscore.py": "7a90207e544f1f78d1a736d960b2f9673a3b80153d2fc56689eaae90c1e7d75f",
+    "scripts/analysis/bootstrap.py": "9632d9e896aff960a22f90ff7b1b76da3f5dbb3cbda54f6f01ac22dad2360323",
+    "scripts/analysis/dsir_reimplementation.py": "b6f3681be225d8433199cdd99d351a237fc6496a4e485ea3a6ef71a77f52e417",
+    "scripts/analysis/iscore.py": "9a01e3b13ff64335e1ea3c722ea94f922e415e469f9bbe8b2ef1790c5707fff4",
+    "scripts/analysis/nc_datasets.py": "a5103c782199e0404df2371a1404ac4b2f12c9b0d754ca3b255348beadb18f36",
+    "scripts/analysis/potency_modello_v1.py": "b869d08427e03ada2a8a577ba4c9b3dbd656e4a03c78c9e36b6accb068fbe1b4",
+    "scripts/analysis/prepare_global_stability.py": "51a56d174bc102b0dde9d2cba37a67606946e65a7bbe28fd32d93b7eed50924f",
+    "scripts/analysis/prepare_nucleotide_heatmap.py": "cb6c3cd71494eb351720f0b50743566d3c49e48b16eeccaf5feeda1b00f0b3d0",
+    "scripts/analysis/prepare_oligoformer.py": "879b07bbe71a941b65b3d4b21f1dab9c9e44356ff786d63697e3ecbc7faf56d6",
+    "scripts/analysis/prepare_performance.py": "e8cf092828f6a9d4d1ca1cf789db6ae2a92b5f0dc88c0015ff7a39f4263c2029",
+    "scripts/analysis/prepare_target_transfer.py": "2f1f9d2c2fe124e149522d5750a54455cd9f19a9fea9167c5076456f417abdd5",
+    "scripts/analysis/prepare_term_variance.py": "3fdf03b64fabc9c9e6c20cbc9ff87ed34c4a814dd29ecfa53b09af6f5b4aa5cb",
+    "scripts/analysis/prepare_weight_profiles.py": "229ff89cc848633bd9c53593bd2c37ffee66fad5d9695dc644c2eb128f77a35b",
+    "scripts/analysis/rule_scorers.py": "7b37776185cb5fb113c2366b26d6fb9d2c2a58f362c3c7c9978fea24fee698f8",
+    "src/silscore/__init__.py": "41f9b1bfc12a86600eedebed7ce3eafb27588d1784a6c3c6b38369280e8b0fc2",
+    "src/silscore/__main__.py": "423129b0e46bd29e15dfec0aa3a57580a85ff7f583b1a9315b6a6f19e635fb14",
+    "src/silscore/cli.py": "f9c67d12a73879e74f7ec7be67b09e715aa534c3ba4584b8638836142ab18feb",
+    "src/silscore/model.py": "c8e47e477b4f99ab3c930f7ea03e5bce48aefed0b683a60aae501fe4780176f6",
+    "src/silscore/prediction.py": "3d72e7669cecdc480cd09820562d99a2e36f46f418992dd9a97d7ab2b72f58fa",
+    "src/silscore/records.py": "c32dcea45fe2146504860a9ccf7528fc0e4e06e096417f50a52a56db84e6e2f4",
+    "src/silscore/scorer.py": "b57ba8871907244c9aff1591502bb595cf12b00348ef784eeb910eee0c1b70d6",
+    "src/silscore/thermo.py": "19f8764968cffc979ac00a5ecd43bb17f537be4f7d3d34702bb11ac7963c3a38"
+  },
+  "model_sha256": {
+    "src/silscore/resources/silscore.json": "c493a95fa07935df44c816a3ba9418df61f8bcb780160b92ba538c38696e314c"
+  },
+  "steps": [
+    {
+      "script": "prepare_performance.py",
+      "bootstrap": 4000,
+      "seed": 0,
+      "output": "potency_vs_dsir.csv",
+      "sha256": "33a635f638d5c9206a96a69c3046e407d6dd502b4ff531f8722d8443b22af393",
+      "seconds": 42.63
+    },
+    {
+      "script": "prepare_target_transfer.py",
+      "bootstrap": 4000,
+      "seed": 0,
+      "output": "potency_specie_per_figura.csv",
+      "sha256": "e18eaf4cee896bd8877cca9730a932f9bb42e3e7c9987030e705ed834972b780",
+      "seconds": 34.41
+    },
+    {
+      "script": "prepare_global_stability.py",
+      "bootstrap": 4000,
+      "seed": 0,
+      "output": "global_stability.npz",
+      "sha256": "f10cd70667cdf146a5e4ffa684a22dd7037da8b7ce5f2d3486df3a19ed5fad8b",
+      "seconds": 2.91
+    },
+    {
+      "script": "prepare_weight_profiles.py",
+      "bootstrap": 4000,
+      "seed": 20260821,
+      "output": "potency_weight_profiles_v1.csv",
+      "sha256": "c62e662c1b39df93badeb336718d930f7e030a777630c2a8f8039b1ccf3f3932",
+      "seconds": 321.63
+    },
+    {
+      "script": "prepare_nucleotide_heatmap.py",
+      "bootstrap": null,
+      "seed": null,
+      "output": "nucleotide_heatmap.npz",
+      "sha256": "7a5b9ab573b736fdc2053da5fe620df13b4fc3dd01f7e7c59e07e2e576a98bb9",
+      "seconds": 2.05
+    },
+    {
+      "script": "prepare_term_variance.py",
+      "bootstrap": null,
+      "seed": null,
+      "output": "term_variance.npz",
+      "sha256": "72f1e2311dab9a4e392aa824484c49ab53202e31e1bc5d60e06982b71afcb27b",
+      "seconds": 0.68
+    }
+  ],
+  "status": "ok",
+  "finished_utc": "2026-11-01T08:01:14.257183+00:00",
+  "oligoformer_plot_cache": {
+    "output": "data/cache/oligoformer.json",
+    "sha256": "d534ebe37e9424990fb164e4cbeac465c9dba21494c888e712e637498d78c861",
+    "producer": "scripts/analysis/prepare_oligoformer.py"
+  }
+}

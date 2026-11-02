@@ -1,0 +1,3 @@
+include scripts/prepare_data.py
+include scripts/extract_huesken.py
+include scripts/analysis/prepare_oligoformer.py

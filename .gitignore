@@ -1,0 +1,46 @@
+# Local source data and processed tables; acquire and inventory them separately.
+data/raw/*
+data/processed/*
+
+# Only the explicit cache allowlist and small manifest may be tracked.
+data/cache/*
+
+# Generated predictions, figures and model files.
+output/
+models/*
+results/
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.safetensors
+*.npy
+*.npz
+*.png
+*.pdf
+
+# Python and notebook state.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+
+# Local working files and execution logs.
+scratch/
+*.log
+
+# Release caches and the manifest. Diagnostic runs stay ignored below data/cache/.
+!data/cache/potency_vs_dsir.csv
+!data/cache/potency_specie_per_figura.csv
+!data/cache/global_stability.npz
+!data/cache/potency_weight_profiles_v1.csv
+!data/cache/manifest.json
+!data/cache/nucleotide_heatmap.npz
+!data/cache/term_variance.npz
+
+# Scalar OligoFormer figure cache.
+!data/cache/oligoformer.json
