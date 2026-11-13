@@ -5,6 +5,7 @@ nucleotide-identity terms*
 
 [![Tests](https://github.com/giusSacco/Silscore/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/giusSacco/Silscore/actions/workflows/tests.yml)
 [![Python ≥3.10](https://img.shields.io/badge/Python-%E2%89%A53.10-blue)](pyproject.toml)
+[![arXiv:2611.15812](https://img.shields.io/badge/arXiv-2611.15812-b31b1b)](https://arxiv.org/abs/2611.15812)
 
 Silscore ([Sacco et al., 2026](https://arxiv.org/abs/2611.15812)) is a physics-based model for predicting the silencing efficacy of siRNAs
 from their sequence. It combines RNA duplex thermodynamics with data-selected
