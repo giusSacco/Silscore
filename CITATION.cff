@@ -35,6 +35,5 @@ preferred-citation:
       given-names: Guido
     - family-names: Bussi
       given-names: Giovanni
-  # year: YEAR_TO_BE_ADDED
-  # doi: DOI_TO_BE_ADDED
-  # url: URL_TO_BE_ADDED
+  year: 2026
+  url: https://arxiv.org/abs/2611.15812

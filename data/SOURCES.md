@@ -1,7 +1,7 @@
 # Local data sources
 
 Acquire the source data separately; they are not bundled. Methods and
-Supplementary Information are described in the [manuscript](../README.md#citation).
+Supplementary Information are described in the [manuscript](https://arxiv.org/abs/2611.15812).
 The repository [LICENSE](../LICENSE) is provisionally all-rights-reserved.
 Check the applicable terms for source software, data and derived results.
 

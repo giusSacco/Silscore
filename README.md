@@ -6,7 +6,7 @@ nucleotide-identity terms*
 [![Tests](https://github.com/giusSacco/Silscore/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/giusSacco/Silscore/actions/workflows/tests.yml)
 [![Python ≥3.10](https://img.shields.io/badge/Python-%E2%89%A53.10-blue)](pyproject.toml)
 
-Silscore ([Sacco et al., 2026](https://doi.org/10.1000/xxxxx)) is a physics-based model for predicting the silencing efficacy of siRNAs
+Silscore ([Sacco et al., 2026](https://arxiv.org/abs/2611.15812)) is a physics-based model for predicting the silencing efficacy of siRNAs
 from their sequence. It combines RNA duplex thermodynamics with data-selected
 sequence features to describe how duplex stability and nucleotide position
 contribute to predicted efficacy.
@@ -36,7 +36,7 @@ For a 19-nucleotide guide $g$, the model predicts efficacy as:
 
 All coefficients are fitted from experimental efficacy measurements.
 
-See the manuscript for predictive performance, benchmarking, parameter
+See [the manuscript](https://arxiv.org/abs/2611.15812) for predictive performance, benchmarking, parameter
 interpretation and further analyses.
 
 ## Installation
@@ -160,5 +160,5 @@ Giuseppe Sacco, Isabella Baldini, Riccardo Paone, Mattia Capulli, Guido Sanguine
 and Giovanni Bussi. *Silscore: modelling siRNA potency with positional
 thermodynamics and data-selected nucleotide-identity terms*.
 
-Preprint, [YEAR]. DOI/URL: [TO BE ADDED].
+Preprint, 2026. [arXiv:2611.15812](https://arxiv.org/abs/2611.15812).
 See the manuscript's Methods and Supplementary Information for analysis details.
