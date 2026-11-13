@@ -154,11 +154,12 @@ for data preparation, cache regeneration and updating the notebooks.
 
 ## Citation
 
-If you use Silscore in your research, please cite:
+If you use Silscore in your research, please cite the preprint using
+[CITATION.cff](CITATION.cff) or the reference below:
 
-Giuseppe Sacco, Isabella Baldini, Riccardo Paone, Mattia Capulli, Guido Sanguinetti,
-and Giovanni Bussi. *Silscore: modelling siRNA potency with positional
-thermodynamics and data-selected nucleotide-identity terms*.
+Sacco, G., Baldini, I., Paone, R., Capulli, M., Sanguinetti, G., & Bussi, G.
+(2026). *Silscore: modelling siRNA potency with positional thermodynamics and
+data-selected nucleotide-identity terms* [Preprint]. arXiv.
+[arXiv:2611.15812](https://arxiv.org/abs/2611.15812).
 
-Preprint, 2026. [arXiv:2611.15812](https://arxiv.org/abs/2611.15812).
 See the manuscript's Methods and Supplementary Information for analysis details.
